@@ -1,3 +1,6 @@
-'use strict';
+"use strict";
 
-let $ = require("jquery");
+const foodCtrl = require('./foodController');
+
+foodCtrl.outputFood();
+
